@@ -24,13 +24,13 @@ document.write(p.introduce());
 
 function Person() {
   var p1 = new Person();
-  p.name = 'dolosolo';
-  p.introduce = function() {
+  p1.name = 'dolosolo';
+  p1.introduce = function() {
     return `My name is ${this.name}`;
   }
   var p2 = new Person();
-  p.name = 'kidboi';
-  p.introduce = function() {
+  p2.name = 'kidboi';
+  p2.introduce = function() {
     return `My name is ${this.name}`;
   }
 }
