@@ -22,17 +22,16 @@ document.write(p.introduce());
 // new 생성자를 통해 만든 함수다. 
 // 여러 사람의 이름을 넣어야 한다면 다음과 같이 만들 수 있다.
 
-function Person() {
-  var p1 = new Person();
-  p.name = 'dolosolo';
-  p.introduce = function() {
+function Person() {}
+var p1 = new Person(); {
+  p1.name = 'dolosolo';
+  p1.introduce = function() {
     return `My name is ${this.name}`;
-  }
-  var p2 = new Person();
-  p.name = 'kidboi';
-  p.introduce = function() {
+}
+var p2 = new Person(); {
+  p2.name = 'kidboi';
+  p2.introduce = function() {
     return `My name is ${this.name}`;
-  }
 }
 document.writein(p1.introduce());
 document.writein(p2.introduce());
